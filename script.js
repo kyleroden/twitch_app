@@ -18,6 +18,7 @@ $.ajax({
     console.log(data);
     var results = $("#results_list");
     $("#eatshit").text(data.streams[0].average_fps);
+    //$("#eatshit").text(data.streams.channel:freecodecamp);
     $.each(data.streams, function(index, value) {
         results += '<li>';
         results += value.channel.display_name;
