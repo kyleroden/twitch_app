@@ -44,6 +44,7 @@ $.each(twitch_app.channels, function(index, channel) {
       current_streamer += "<a target='_blank' href='" + "https://www.twitch.tv/" + channel + "'>" + "<p class=''>" + "Online" + "</p>" + "</a>";
       current_streamer += "<p class=''>" + channel_data.stream.game + "</p>";
       current_streamer += "<p>Viewers: " + channel_data.stream.viewers + "</p>";
+      current_streamer += "<p>Followers: " + channel_data.stream.channel.followers + "</p>";
       current_streamer += "</div>";
       current_streamer += "<div class='col-md-4'>";
       current_streamer += "<img class='preview_img' src='" + channel_data.stream.preview.medium + "'>";

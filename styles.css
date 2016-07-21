@@ -22,3 +22,14 @@ h1 {
 .preview_img {
   max-width: 280px;
 }
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+#footer a, i {
+  color: white;
+}
+#github_icon {
+  margin-left: 3px;
+}
