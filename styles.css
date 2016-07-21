@@ -1,3 +1,7 @@
+body {
+  background-color: cornflowerblue;
+}
+
 h1 {
   color: white;
   text-shadow: 1px 1px 2px #000000;
@@ -13,5 +17,8 @@ h1 {
   background-color: #95BA3C;
   height: 100%;
   margin: .5em 0em;
-  padding: 3px;
+  padding: 1em;
+}
+.preview_img {
+  max-width: 280px;
 }
